@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        
+        <title>Sine Requie Tarot Dealer</title>
+    </head>
+
+    <body>
+        <div class="wrapper clearfix">
+            <div class="deck-panel" id=minor_arcana>
+                <div class="deck-title">
+                    <p>Minor Arcana</p>
+                </div>
+                <div class="deck">
+                    <img src="img/back.jpg" alt="" class="deck_img" id="minor_deck">
+                    <div class="card-name" id='name_minor'>
+                    </div>
+                </div>
+                <div class="btn-wrapper">
+                    <div class="btn btn-draw" id="draw_minor">
+                        <p>Draw a new card</p>
+                    </div>
+                    <div class="btn btn-shuffle active" id="shuffle_minor">
+                        <p>Shuffle deck</p>
+                    </div>
+                </div>
+            </div>
+            <div class="deck-panel" id=major_arcana>
+                <div class="deck-title">
+                    <p>Major Arcana</p>
+                </div>
+                <div class="deck">
+                    <img src="img/back.jpg" alt="" class="deck_img" id="major_deck">
+                    <div class="card-name" id='name_major'>
+                    </div>
+                </div>
+                <div class="btn-wrapper">
+                    <div class="btn btn-draw" id="draw_major">
+                        <p>Draw a new card</p>
+                    </div>
+                    <div class="btn btn-shuffle active" id="shuffle_major">
+                        <p>Shuffle deck</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        <script src="script.js"></script>
+    </body>
+</html>
